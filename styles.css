@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu VIC WA NT Beginner', sans-serif;
+}
+
+header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+nav {
+    margin-left: 30px;
+    margin-right: 60px;
+    
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 20px;
+    list-style-type: none;   
+}
+
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: #4c85ff;
+    text-decoration: underline;
+}
+
+.sign-up {
+    padding: 20px 30px 20px 30px;
+    border-radius: 2px;
+    background-color: #4c85ff;
+    border-style: none;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.sign-up:hover {
+    background-color: #3b69ff;
+}
+
+/* MAIN */
+
+.home, .about-us {
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 0px;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+  
+.grid-item {
+    
+    font-size: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+    align-content: center;
+}
+
+.hero {
+    width: 110%;
+    margin-top: 60px;
+    
+}
+
+.content {
+    margin-left: 15%;
+    width: 75%;
+    color: #001846;
+}
+
+.content-2 {
+    margin-left: 10%;
+    width: 75%;
+    color: #001846;
+    
+}
+
+.learn-more {
+    padding: 20px 30px 20px 30px;
+    border-radius: 2px;
+    background-color: #d772ff;
+    border-style: none;
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.learn-more:hover {
+    background-color: #bd52ff;
+}
+
+.hero-2 {
+    width: 110%;
+    
+}
